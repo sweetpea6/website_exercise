@@ -1,0 +1,56 @@
+.inner-box{
+    width:1280px;
+    margin:0 auto;
+}
+/* 공통(common) css */
+.heading-section{
+    font-size:45px;
+    font-weight: 400;
+}
+
+.yellow-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: #d3b000;
+}
+
+.dark-name{
+    font-size: 44px;
+    font-weight: 600;
+    color: #021725;
+}
+
+/*영역별 CSS*/
+
+.work1{
+    text-align: center;
+}
+
+.wo-small-text{
+    margin-top: 128px;
+}
+
+.dark-name{
+    margin-top: 23px;
+}
+
+.wo-detail-text1{
+    line-height:1.4;
+    margin: 55px 0 132px;
+}
+
+.wo-list{
+
+}
+
+.wo-list-image{
+    width: 317px;
+    height: 300px;
+    float: left;
+    margin: 0 4px 3px 0;
+}
+
+.wo-list-image:last-child{
+    margin-right: 0;
+}
+
