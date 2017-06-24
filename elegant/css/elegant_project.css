@@ -22,35 +22,54 @@
 
 /*영역별 CSS*/
 
-.work1{
-    text-align: center;
+.pr-image{
+
 }
 
-.wo-small-text{
-    margin-top: 128px;
+.ab-btn-down2{
+    width:31px;
+    height:31px;
+    background:url("../images/img%20arrow-down.png") no-repeat;
+    border:0;
+    text-indent:-99999px;
+    cursor: pointer;
+    position: absolute;
+    top: 613px;
+    /*가로, 세로에 지정할 수 없을 때는 중앙으로 이동*/
+    left: 50%;
 }
 
-.dark-name{
-    margin-top: 23px;
+.project1{
+    background: #f9f9f9;
+    margin: 48px 64px 0;
 }
 
-.wo-detail-text1{
+.pr-name{
+    font-size:45px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 67px;
+}
+
+.pr-detail-text1{
+    margin: 126px 0 101px 67px;
+    font-family: 'Cardo', sans-serif;
+    font-size: 20px;
     line-height:1.4;
-    margin: 55px 0 132px;
+    font-weight: 700;
 }
 
-.wo-list{
-
-}
-
-.wo-list-image{
-    width: 317px;
-    height: 300px;
+.pr-list1{
+    margin-left: 64px;
     float: left;
-    margin: 0 4px 3px 0;
 }
 
-.wo-list-image:last-child{
-    margin-right: 0;
+.pr-list-img1{
+    margin-bottom: 19px;
 }
+
+.pr-list2{
+    float: right;
+}
+
 
