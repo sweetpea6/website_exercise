@@ -2,10 +2,12 @@
 
 .btn-menu-toggle{
   float:right;
-  width:26px;
-  height:23px;
+  width:20px;
+  height:20px;
   background:url() no-repeat;
   /*text-indent:-99999px;*/
   border:0;
-  margin-top:39px;
+  margin-top:36px;
 }
+
+/* ¿µ¿ªº° css */
