@@ -11,6 +11,10 @@
 
 /*��� ����*/
 
+.header{
+  position: absolute;
+}
+
 .btn-menu-close{
   width: 20px;
   height: 20px;
@@ -39,7 +43,7 @@
   height: 100%;
 
   top: 0;
-  right: -340px;
+  right: 61px;
 }
 
 .gnb-heading{
@@ -90,6 +94,14 @@
   cursor: pointer;
 }
 
+.thumb-l{
+  float: left;
+}
+
+.thumb-r{
+  float: right;
+}
+
 .thumb-image-wrap{
   width: 624px;
   height: 916px;
@@ -127,7 +139,7 @@
 
 /* Ǫ�� ���� */
 
-.footer-coppyright{
+.footer-copyright{
   margin-top: 57px;
   text-align: center;
   font-size: 10px;
