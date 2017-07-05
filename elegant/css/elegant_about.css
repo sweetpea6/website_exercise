@@ -43,6 +43,11 @@
 
 .services1{
     background: #f9f9f9;
+    height: 450px;
+}
+
+.services:after{
+    position: relative;
 }
 
 .services{
@@ -54,14 +59,36 @@
 .ab-detail-text2{
     color: #505d68;
     line-height:1.4;
+    float: left;
 }
 
 .ab-detail-text3{
     color: #505d68;
     line-height:1.4;
-    margin-top: 206px;
+    float: right;
+    margin-right: 73px;
 }
 
+/* ÇªÅÍ ¿µ¿ª */
+
+.footer{
+    background: #eeeeee;
+    padding: 40px 0;
+}
+
+.footer-coppyright{
+    color: #505d68;
+    font-size: 16px;
+    float: left;
+    margin-left: 267px;
+}
+
+.footer-email {
+    font-size: 16px;
+    color: #505d68;
+    float: right;
+    margin-right: 267px;
+}
 
 
 
