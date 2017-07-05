@@ -9,7 +9,7 @@
   clear: both;
 }
 
-/*Çì´õ ¿µ¿ª*/
+/*ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½*/
 
 .btn-menu-close{
   width: 20px;
@@ -66,7 +66,7 @@
   margin-top: 16px;
 }
 
-/* ¿µ¿ªº° css */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ css */
 
 .main-title-box{
   width: 672px;
@@ -77,9 +77,10 @@
 
 .main-title{
   font-size: 130px;
-  font-family: 'Spectral', serif;
+  font-family: 'Libre Baskerville', serif;
   line-height: 1.2;
   color: #ffc0cb;
+  font-weight: 300;
 }
 
 .thumb{
@@ -124,7 +125,7 @@
 
 }
 
-/* ÇªÅÍ ¿µ¿ª */
+/* Çªï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
 .footer-coppyright{
   margin-top: 57px;
