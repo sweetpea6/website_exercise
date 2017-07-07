@@ -132,20 +132,20 @@
 .services{
     color: #505d68;
     font-weight: 700;
-    padding: 47px 0 91px 42px;
+    margin-bottom: 91px;
 }
 
 .ab-detail-text2{
     color: #505d68;
-    line-height:1.4;
+    line-height:1.6;
     float: left;
 }
 
 .ab-detail-text3{
     color: #505d68;
-    line-height:1.4;
+    line-height:1.6;
     float: right;
-    margin-right: 73px;
+    margin: 32px 73px 0 0;
 }
 
 /* ÇªÅÍ ¿µ¿ª */
