@@ -9,53 +9,76 @@
     clear:both;
 }
 
+.header{
+    position: relative;
+}
+
+.header-wrap{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
+
 .logo-link{
     display:block;
-    background:url("../images/cd-logo.gif") no-repeat;
+    background:url("../images/cd-logo.png") no-repeat;
     text-indent:-99999px;
+    width:190px;
+    height:42px;
+    margin: 16px 0 0 48px;
+}
+
+.gnb-wrap{
+    position: absolute;
+    right:0;
+}
+
+.menu-list{
+
+}
+
+.menu-wrap{
+    float: left;
+    margin: 31px 4px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .btn-menu-toggle{
-    float:right;
     width:18px;
     height:23px;
-    /*background:url("../images/") no-repeat;*/
     text-indent:-99999px;
     border:0;
-    margin-top:39px;
+    float: right;
+    color: #fff;
+
 }
 
 .gnb{
-    width:302px;
     height:100%;
-    padding-left:38px;
 
-    position:fixed;
     top:0;
     right:-340px;
-    background:#161f32;
-}
-
-.gnb-heading{
-    font-family: 'Molle', cursive;
-    font-size:37px;
-    color:#fff;
-    margin-left:4px;
-    margin-top:59px;
 }
 
 .gnb-list{
-    margin-top:50px;
+    float: right;
 }
 
 .gnb-item{
     margin-bottom:19px;
+    margin-top: 19px;
+
 }
 
 .gnb-link{
-    font-weight:300;
-    font-size:20px;
     color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 48px;
 }
 
 /* °øÅë(common) css */
