@@ -47,15 +47,124 @@
     color: #fff;
 }
 
-.btn-menu-toggle{
-    width:18px;
-    height:23px;
-    text-indent:-99999px;
-    border:0;
-    float: right;
-    color: #fff;
-
+/* hamburger button */
+.hamburger{
+    position: absolute;
+    margin: 36px 0 0 48px;
 }
+.hamburger-button {
+    position: absolute;
+    text-indent:-99999px;
+}
+
+.hamburger-btn {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.hamburger-btn-line {
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 4px;
+}
+
+.hamburger-btn-line:before {
+    content: "";
+    position: absolute;
+}
+
+.hamburger-btn-line:nth-child(1) {
+    animation: span-first-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-btn-line:nth-child(2) {
+    animation: span-second-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-btn-line:nth-child(3) {
+    animation: span-third-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes span-first-on {
+    0% {
+        transform: translate(-50%, -300%);
+    }
+    30% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+}
+
+@keyframes span-first-off {
+    0% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -300%);
+    }
+}
+
+@keyframes span-second-on {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-150%, -50%) scale(0);
+    }
+}
+
+@keyframes span-second-off {
+    0% {
+        transform: translate(-150%, -50%) scale(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes span-third-on {
+    0% {
+        transform: translate(-50%, 200%);
+    }
+    30% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+@keyframes span-third-off {
+    0% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, 200%);
+    }
+}
+/* gnb ¿µ¿ª */
 
 .gnb{
     height:100%;
@@ -71,7 +180,7 @@
 .gnb-item{
     margin-bottom:19px;
     margin-top: 19px;
-
+    text-align: right;
 }
 
 .gnb-link{
