@@ -15,6 +15,7 @@
 
 .header-wrap{
     position: relative;
+    margin-right: 48px;
 }
 
 .logo{
@@ -41,7 +42,7 @@
 
 .menu-wrap{
     float: left;
-    margin: 31px 4px 0 0;
+    margin: 31px 19px 0 0;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
@@ -55,6 +56,8 @@
 .hamburger-button {
     position: absolute;
     text-indent:-99999px;
+    width: 18px;
+    height: 12px;
 }
 
 .hamburger-btn {
@@ -181,13 +184,13 @@
     margin-bottom:19px;
     margin-top: 19px;
     text-align: right;
+    width: 64px;
 }
 
 .gnb-link{
     color:#fff;
     font-size: 16px;
     font-weight: 600;
-    margin-right: 48px;
 }
 
 /* °øÅë(common) css */
@@ -242,6 +245,7 @@
     color: #505d68;
     font-weight: 700;
     margin-bottom: 91px;
+    padding-top: 47px;
 }
 
 .ab-detail-text2{
