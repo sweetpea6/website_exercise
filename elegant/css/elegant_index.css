@@ -26,12 +26,11 @@
 }
 
 .in-top-text{
+    margin-top: 303px;
     font-size: 80px;
     color: #fff;
     font-weight: 300;
-    position: absolute;
-    letter-spacing: 0.1em;
-    margin: -405px 0 0 60px;
+    text-align: center;
 }
 
 .small-name1{

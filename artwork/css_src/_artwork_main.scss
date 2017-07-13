@@ -1,0 +1,143 @@
+.inner-box{
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.inner-box:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*��� ����*/
+
+.header{
+  position: absolute;
+}
+
+.btn-menu-close{
+  width: 20px;
+  height: 20px;
+  background: url("../images/btn_close_menu.png") no-repeat;
+  border: 0;
+  text-indent: -99999px;
+
+  position: absolute;
+  top: 36px;
+  right: 60px;
+  cursor: pointer;
+}
+
+.btn-menu-toggle{
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: url("../images/btn_show_menu.png") no-repeat;
+  text-indent: -99999px;
+  border: 0;
+  margin-top: 36px;
+}
+
+.gnb{
+  width: 114px;
+  height: 100%;
+
+  top: 0;
+  right: 61px;
+}
+
+.gnb-heading{
+  background: url("../images/artwork_icon.png");
+  width: 114px;
+  height: 76px;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  text-indent:-99999px;
+}
+
+.gnb-item{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.gnb-link{
+  color: #000;
+}
+
+.gnb-link-item{
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+/* ������ css */
+
+.main-title-box{
+  width: 672px;
+  height: 840px;
+  border: 15px solid #ffc0cb;
+  margin: 120px auto 0 auto;
+}
+
+.main-title{
+  font-size: 130px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.2;
+  color: #ffc0cb;
+  font-weight: 300;
+  margin: 292px 0 0 98px;
+}
+
+.down-btn{
+  margin: 48px 0 53px 0;
+
+}
+
+.thumb{
+  width: 624px;
+  height: 916px;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumb-l{
+  float: left;
+}
+
+.thumb-r{
+  float: right;
+}
+
+.thumb-image-wrap{
+  width: 624px;
+  height: 916px;
+  overflow: hidden;
+}
+
+.thumb-text-wrap{
+  width: 624px;
+  height: 916px;
+  background: #000;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding-top: 436px;
+  box-sizing: border-box;
+}
+
+.thumb-text-heading{
+  font-size: 60px;
+  text-align: center;
+
+}
+
+/* Ǫ�� ���� */
+
+.footer-copyright{
+  margin-top: 57px;
+  text-align: center;
+  font-size: 10px;
+}
