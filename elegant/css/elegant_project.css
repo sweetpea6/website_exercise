@@ -98,7 +98,8 @@
 }
 
 .btn-wrap-item{
-
+    float: left;
+    margin: 0 67px;
 }
 
 .btn-wrap-link{
