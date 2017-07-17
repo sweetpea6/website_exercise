@@ -2,7 +2,6 @@
     width:1280px;
     margin:0 auto;
 }
-
 /* °øÅë(common) css */
 .heading-section{
     font-size:45px;
@@ -27,12 +26,11 @@
 }
 
 .in-top-text{
+    margin-top: 303px;
     font-size: 80px;
     color: #fff;
     font-weight: 300;
-    position: absolute;
-    margin: -403px 0 0 122px;
-    letter-spacing: 3px
+    text-align: center;
 }
 
 .small-name1{
@@ -45,7 +43,15 @@
     text-align: center;
 }
 
+.in-detail-text1{
+    text-align: center;
+    font-size: 18px;
+    line-height:1.4;
+    margin-top: 53px;
+}
 .in-button1{
+    /*position: absolute;*/
+    /*bottom: 25px;*/
     margin: 49px auto 0;
 
     width:238px;
@@ -62,7 +68,6 @@
 .small-name2{
     margin-top: 163px;
     text-align: center;
-    display: block;
 }
 
 .in-title2{
@@ -70,7 +75,7 @@
     text-align: center;
 }
 
-.in-detail-wrap{
+.in-detail-image1{
     margin-top: 78px;
 }
 
@@ -78,68 +83,9 @@
     margin-top: 3px;
     width: 317px;
     height: 300px;
-    float: left;
-    margin-right: 4px;
+
 }
 
-.in-detail-image-list:nth-child(4),
-.in-detail-image-list:nth-child(8){
+.in-detail-image-list:last-child{
     margin-right: 0;
-}
-
-.in-detail-image-list:nth-child(5),
-.in-detail-image-list:nth-child(6),
-.in-detail-image-list:nth-child(7),
-.in-detail-image-list:nth-child(8){
-    margin-bottom: 162px;
-}
-
-.in-detail-image-item{
-}
-
-.in-detail-text1{
-    text-align: center;
-    font-size: 18px;
-    line-height:1.4;
-    margin: 53px 0 50px 0;
-}
-
-.people-wrap{
-    margin: 0 265px 0 265px;
-}
-
-.people-list{
-}
-
-.people-list-img{
-    width: 246px;
-    height: 192px;
-    float: left;
-}
-
-.people-text-wrap{
-    width: 246px;
-    height: 231px;
-    background: #ddd;
-    float: left;
-}
-
-.people-position{
-    color: #d4af37;
-    font-size: 13px;
-    font-weight: 700;
-    margin: 20px 0 20px 17px;
-}
-
-.people-name{
-    font-size: 21px;
-    color: #021725;
-    font-weight: 700;
-    margin: 0 0 32px 17px;
-}
-
-.people-item{
-    font-size: 13px;
-    margin-left: 17px;
-    line-height:1.4;
 }

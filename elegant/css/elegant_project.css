@@ -39,15 +39,9 @@
     left: 50%;
 }
 
-.project-wrap{
-    position: absolute;
+.project1{
     background: #f9f9f9;
     margin: 48px 64px 0;
-    width: 1151px;
-}
-
-.project1{
-    float: left;
 }
 
 .pr-name{
@@ -55,7 +49,6 @@
     font-weight: 700;
     color: #000;
     margin-left: 67px;
-    margin-top: 86px;
 }
 
 .pr-detail-text1{
@@ -75,40 +68,8 @@
     margin-bottom: 19px;
 }
 
-.pr-list-img1:last-child{
-    margin-bottom: 46px;
-}
-
-.project2{
-    margin: 64px 69px 0 0;
-}
-
-
 .pr-list2{
     float: right;
-}
-
-.btn-wrap{
-    margin: 104px 135px 73px 133px;
-    position: absolute;
-}
-
-.btn-wrap-list{
-
-}
-
-.btn-wrap-item{
-    float: left;
-    margin: 0 67px;
-}
-
-.btn-wrap-link{
-    width: 249px;
-    height: 58px;
-    background: #fff;
-    font-size: 15px;
-    color: #c0c0c0;
-    border: 1px solid #a1a1a1;
 }
 
 
