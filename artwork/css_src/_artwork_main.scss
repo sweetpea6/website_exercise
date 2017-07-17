@@ -97,22 +97,23 @@
 .thumb{
   width: 624px;
   height: 916px;
-  position: relative;
+  position: absolute;
   cursor: pointer;
-}
-
-.thumb-l{
   float: left;
-}
-
-.thumb-r{
-  float: right;
 }
 
 .thumb-image-wrap{
   width: 624px;
   height: 916px;
   overflow: hidden;
+}
+
+.thumb-image{
+  //margin: 0 12px 0 12px;
+}
+
+.contents-list-wrap{
+  margin: 0 12px 0 12px;
 }
 
 .thumb-text-wrap{
