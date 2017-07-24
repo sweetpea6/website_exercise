@@ -1,0 +1,289 @@
+.inner-box{
+    width:1280px;
+    margin:0 auto;
+}
+
+.inner-box:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.header{
+    position: relative;
+}
+
+.header-wrap{
+    position: relative;
+    margin-right: 48px;
+}
+
+.logo{
+    position: absolute;
+}
+
+.logo-link{
+    display:block;
+    background:url("../images/cd-logo.png") no-repeat;
+    text-indent:-99999px;
+    width:190px;
+    height:42px;
+    margin: 16px 0 0 48px;
+}
+
+.gnb-wrap{
+    position: absolute;
+    right:0;
+}
+
+.menu-list{
+
+}
+
+.menu-wrap{
+    float: left;
+    margin: 31px 19px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* hamburger button */
+.hamburger{
+    position: absolute;
+    margin: 36px 0 0 48px;
+}
+.hamburger-button {
+    position: absolute;
+    text-indent:-99999px;
+    width: 18px;
+    height: 12px;
+}
+
+.hamburger-btn {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.hamburger-btn-line {
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 4px;
+}
+
+.hamburger-btn-line:before {
+    content: "";
+    position: absolute;
+}
+
+.hamburger-btn-line:nth-child(1) {
+    animation: span-first-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-btn-line:nth-child(2) {
+    animation: span-second-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-btn-line:nth-child(3) {
+    animation: span-third-off 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes span-first-on {
+    0% {
+        transform: translate(-50%, -300%);
+    }
+    30% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+}
+
+@keyframes span-first-off {
+    0% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -300%);
+    }
+}
+
+@keyframes span-second-on {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-150%, -50%) scale(0);
+    }
+}
+
+@keyframes span-second-off {
+    0% {
+        transform: translate(-150%, -50%) scale(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes span-third-on {
+    0% {
+        transform: translate(-50%, 200%);
+    }
+    30% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+@keyframes span-third-off {
+    0% {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, 200%);
+    }
+}
+/* gnb 영역 */
+
+.gnb{
+    height:100%;
+
+    top:0;
+    right:-340px;
+}
+
+.gnb-list{
+    float: right;
+}
+
+.gnb-item{
+    margin-bottom:19px;
+    margin-top: 19px;
+    text-align: right;
+    width: 64px;
+}
+
+.gnb-link{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* 공통(common) css */
+.heading-section{
+    font-size:45px;
+    font-weight: 400;
+}
+
+/* 영역별 css */
+.blog-wrap:before{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.blog-wrap{
+    width: 1151px;
+    background: #f9f9f9;
+    margin: 78px 0 0 65px;
+
+}
+
+.content{
+    width: 666px;
+    height: 832px;
+    background: #fff;
+    margin-left: 63px;
+}
+
+.content-top{
+
+}
+
+.content-bottom{
+
+}
+
+.content-wrap{
+}
+
+.content-img{
+    margin: 32px 32px 33px 34px;
+}
+
+.content-main-text{
+}
+
+.content-title{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 29px 34px;
+}
+
+.content-sub-text{
+    font-size: 15px;
+    color: #d3b000;
+    margin-left: 34px;
+    font-weight: 400;
+}
+
+.content-text{
+    font-size: 16px;
+    margin: 33px 0 0 34px;
+    line-height:1.6;
+}
+
+.read-btn{
+    width: 191px;
+    height: 48px;
+    border: 1px solid #000;
+    background: #fff;
+    margin: 67px 0 31px 33px;
+}
+
+/* 푸터 영역 */
+
+.footer{
+    background: #eeeeee;
+    padding: 40px 0;
+}
+
+.footer-coppyright{
+    color: #505d68;
+    font-size: 16px;
+    float: left;
+    margin-left: 267px;
+}
+
+.footer-email {
+    font-size: 16px;
+    color: #505d68;
+    float: right;
+    margin-right: 267px;
+}
+
+

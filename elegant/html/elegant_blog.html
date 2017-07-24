@@ -2,88 +2,137 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Elegant Biog</title>
+    <title>Elegant Blog</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/elegant_blog.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 </head>
 <body>
 
-<section>
-    <div>
-        <img src=""/>
+<header class="header">
+    <div class="inner-box">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="#" class="logo-link">elegant</a>
+            </h1>
+            <div class="gnb-wrap">
+                <a href="#" class="menu-list">
+                    <div class="menu-wrap">MENU</div>
+                    <div class="hamburger">
+                        <h1 class="hamburger-button">열기/닫기 & 햄버거 버튼</h1>
+                        <h2 class="hamburger-button">Pure CSS</h2>
+                        <button class="hamburger-btn">
+                            <span class="hamburger-btn-line">#</span>
+                            <span class="hamburger-btn-line">#</span>
+                            <span class="hamburger-btn-line">#</span>
+                        </button>
+                    </div>
+                    <!--<input type="button" value="메뉴토글" class="btn-menu-toggle" />-->
+                </a>
+                <nav class="gnb">
+                    <ul class="gnb-list">
+                        <li class="gnb-item"><a href="#" class="gnb-link">About</a></li>
+                        <li class="gnb-item"><a href="#" class="gnb-link">Blog</a></li>
+                        <li class="gnb-item"><a href="#" class="gnb-link">Project</a></li>
+                        <li class="gnb-item"><a href="#" class="gnb-link">Work</a></li>
+                        <li class="gnb-item"><a href="#" class="gnb-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section1 main">
+    <div class="inner-box">
+        <img src="../images/cd-blog-bg.png"/>
     </div>
 </section>
 
-<section>
-    <div>
-        <div>
-            <figure>
-                <img src=""/>
-                <figcaption>
-                    <div>This is the Titleof Your Post</div>
-                </figcaption>
-            </figure>
-            <div>14 September 2014</div>
-                <p>
+<section class="section2">
+    <div class="inner-box">
+        <div class="blog-wrap">
+            <div class="content content-top">
+                <figure class="content-wrap">
+                    <img src="../images/blog-img1.png" class="content-img"/>
+                    <figcaption class="content-main-text">
+                        <div class="content-title">This is the Titleof Your Post</div>
+                    </figcaption>
+                </figure>
+                <div class="content-sub-text">14 September 2014</div>
+                <p class="content-text">
                     This looks. I want to complexity. That's come to testify to complexity. It's about an<br/>
                     object, we kept going and i figured out some basic stuff that acknowledges its very<br/>
                     minimalist way beyond the traditions of function from a clutterfree product that form<br/>
                     and value on ideas and simplicity. What products have disconnected function of<br/>
                     anything of the computer.
                 </p>
-            <input type="button" value="Read More"/>
+                <input type="button" value="Read More" class="read-btn"/>
+            </div>
+            <div class="content content-bottom">
+                <figure class="content-wrap">
+                    <img src="../images/blog-img2.png" class="content-img"/>
+                    <figcaption class="content-main-text">
+                        <div class="content-title">This is the Titleof Your Post</div>
+                    </figcaption>
+                </figure>
+                <div class="content-sub-text">14 September 2014</div>
+                <p class="content-text">
+                    This looks. I want to complexity. That's come to testify to complexity. It's about an<br/>
+                    object, we kept going and i figured out some basic stuff that acknowledges its very<br/>
+                    minimalist way beyond the traditions of function from a clutterfree product that form<br/>
+                    and value on ideas and simplicity. What products have disconnected function of<br/>
+                    anything of the computer.
+                </p>
+                <input type="button" value="Read More" class="read-btn"/>
+            </div>
         </div>
         <div>
-            <figure>
-                <img src=""/>
-                <figcaption>
-                    <div>This is the Titleof Your Post</div>
-                </figcaption>
-            </figure>
-            <div>14 September 2014</div>
-            <p>
-                This looks. I want to complexity. That's come to testify to complexity. It's about an<br/>
-                object, we kept going and i figured out some basic stuff that acknowledges its very<br/>
-                minimalist way beyond the traditions of function from a clutterfree product that form<br/>
-                and value on ideas and simplicity. What products have disconnected function of<br/>
-                anything of the computer.
-            </p>
-            <input type="button" value="Read More"/>
+            <div>
+                <div>
+                    <div>Recent Posts</div>
+                    <ul>
+                        <li>This is the Title of Your Post</li>
+                        <li>This is the Title of Your Post</li>
+                        <li>This is the Title of Your Post</li>
+                        <li>This is the Title of Your Post</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>Categories</div>
+                    <ul>
+                        <li>Art</li>
+                        <li>Business</li>
+                        <li>Design</li>
+                        <li>Code</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>Categories</div>
+                    <ul>
+                        <li><img src=""/></li>
+                        <li><img src=""/></li>
+                        <li><img src=""/></li>
+                        <li><img src=""/></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <div>
         <div>
-            <div>
-              <div>Recent Posts</div>
-              <ul>
-                  <li>This is the Title of Your Post</li>
-                  <li>This is the Title of Your Post</li>
-                  <li>This is the Title of Your Post</li>
-                  <li>This is the Title of Your Post</li>
-              </ul>
-            </div>
-            <div>
-              <div>Categories</div>
-              <ul>
-                  <li>Art</li>
-                  <li>Business</li>
-                  <li>Design</li>
-                  <li>Code</li>
-            </ul>
-            </div>
-            <div>
-                <div>Categories</div>
-                <ul>
-                    <li><img src=""/></li>
-                    <li><img src=""/></li>
-                    <li><img src=""/></li>
-                    <li><img src=""/></li>
-                </ul>
-            </div>
+            <input type="button" value="Load More Posts"/>
         </div>
-    </div>
-    <div>
-        <input type="button" value="Load More Posts"/>
     </div>
 </section>
+
+<footer class="footer">
+    <div class="footer-coppyright">
+        &copy; 2014 Designed and Developed by Diogo Dantas
+    </div>
+
+    <div class="footer-email">
+        Email: imdiogodantas@gmail.com
+    </div>
+</footer>
 
 </body>
 </html>
