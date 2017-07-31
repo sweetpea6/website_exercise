@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-@import 'reset';
+@import "reset";
 
-@import 'artwork_main';
+@import "artwork_main.scss";
 
-@import 'artwork_currentexhibitions';
+@import "artwork_currentexhibitions.scss";
+
+@import "artwork_exhibit_detail_page.scss";
+
+@import "artwork_author.scss";
