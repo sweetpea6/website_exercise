@@ -2,40 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>현재전시</title>
+  <title>ARTWORK Main</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="../css/reset.css" />
-  <link rel="stylesheet" href="../css/artwork_currentexhibitions.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
+
 <header class="header">
   <div class="inner-box">
-    <h1 class="logo">
-      <a href="#" class="logo-link">Artica</a>
-    </h1>
     <input type="button" value="메뉴토글" class="btn-menu-toggle" />
     <nav class="gnb">
-      <div class="gnb-heading">Artica</div>
+      <div class="gnb-heading">ARTWORK</div>
       <ul class="gnb-list">
         <li class="gnb-item"><a href="#" class="gnb-link">전시</a>
           <ul>
-            <li><a href="#">현재전시</a></li>
-            <li><a href="#">예정전시</a></li>
-            <li><a href="#">지난전시</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">현재전시</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">예정전시</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">지난전시</a></li>
           </ul>
         </li>
         <li class="gnb-item"><a href="#" class="gnb-link">아카이브</a>
           <ul>
-            <li><a href="#">작품</a></li>
-            <li><a href="#">평론</a></li>
-            <li><a href="#">작가</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">작품</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">평론</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">작가</a></li>
           </ul>
         </li>
         <li class="gnb-item"><a href="#" class="gnb-link">커뮤니티</a>
           <ul>
-            <li><a href="#">게시판</a></li>
-            <li><a href="#">공모전</a></li>
-            <li><a href="#">아트잡</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">게시판</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">공모전</a></li>
+            <li class="gnb-link-item"><a href="#" class="gnb-link">아트잡</a></li>
           </ul>
         </li>
       </ul>
@@ -53,24 +50,20 @@
 
 <section class="contents section2">
   <div class="inner-box">
-    <figure>
-      <img src=""/>
-      <div>
-        <p>Current Exhibitions</p>
-      </div>
-    </figure>>
+    <figure class="position">
+      <img src="../images/current_main.png" class="position-img"/>
+      <p class="position-img-title">Current Exhibitions</p>
+    </figure>
 
-    <ul>
-      <li>
-        <div>
+    <ul class="exhibit">
+
+      <li class="exhibit-wrap">
+        <div class="exhibit-wrap-list">
           <figure class="thumb">
-            <div class="thumb-image-wrap">
-              <img src="">
-            </div>
+            <img src="../images/current_1.png" class=""/>
             <figcaption class="thumb-text-wrap">
-              <p></p>
-              <div>브런치 사진전</div>
-              <div>2017.04.15 - 2017.08.08</div>
+              <div class="thumb-text-wrap-title">브런치 사진전</div>
+              <div class="thumb-text-wrap-subtitle">2017.04.15 - 2017.08.08</div>
             </figcaption>
           </figure>
         </div>
@@ -79,11 +72,8 @@
       <li>
         <div>
           <figure class="thumb">
-            <div class="thumb-image-wrap">
-              <img src="">
-            </div>
+            <img src="">
             <figcaption class="thumb-text-wrap">
-              <p></p>
               <div>로이스터 사진전</div>
               <div>2017.05.09 - 2017.08.27</div>
             </figcaption>
@@ -94,11 +84,8 @@
       <li>
         <div>
           <figure class="thumb">
-            <div class="thumb-image-wrap">
-              <img src="">
-            </div>
+            <img src="">
             <figcaption class="thumb-text-wrap">
-              <p></p>
               <div>미스터 브레인워시展</div>
               <div>2017.15.30 - 2017.08.15</div>
             </figcaption>
@@ -109,11 +96,8 @@
       <li>
         <div>
           <figure class="thumb">
-            <div class="thumb-image-wrap">
-              <img src="">
-            </div>
+            <img src="">
             <figcaption class="thumb-text-wrap">
-              <p></p>
               <div>미디어 시티 서울 2017</div>
               <div>2017.06.03 - 2017.08.20</div>
             </figcaption>
@@ -125,9 +109,17 @@
 </section>
 
 <footer class="footer">
-  <div class="footer-coppyright">
+
+  <div class="footer-copyright">
+
     Copyright &copy; 2017 ARTWORK. All Rights Reserved.
+
   </div>
+
 </footer>
+
+
+
 </body>
+
 </html>
