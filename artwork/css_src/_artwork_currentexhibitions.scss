@@ -1,11 +1,54 @@
 .position{
+    float: left;
 
     &-img{
 
         &-title{
-
+            position: absolute;
+            top: 0;
+            border: 15px solid #fff;
+            color: #fff;
+            font-size: 63px;
+            padding: 367px 67px 364px;
+            margin: 127px 128px;
         }
 
     }
 
+}
+
+
+.exhibit{
+
+    &-wrap{
+        float: right;
+        &-img{
+
+        }
+
+        &-list{
+            font-size: 18px;
+            font-weight: 400;
+
+            &-title{
+                float: left;
+                margin: 18px auto 18px 250px;
+            }
+
+
+            &-subtitle{
+                float: right;
+                margin: 18px 250px 18px auto;
+            }
+        }
+
+        &-list:after{
+            content: "";
+            display: block;
+            width: 672px;
+            height: 1px;
+            background: #000;
+            margin: 20px auto;
+        }
+    }
 }
