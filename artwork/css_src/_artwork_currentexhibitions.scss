@@ -1,22 +1,39 @@
+.video-img{
+    position: absolute;
+}
+
+.video-wrap{
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+}
+
+.video{
+    width: 100%;
+    height: 560px;
+    top: -250px;
+}
+
 .position{
+    height: 1100px;
     float: left;
 
     &-img{
 
         &-title{
-            position: absolute;
+            //position: absolute;
             top: 0;
             border: 15px solid #fff;
             color: #fff;
             font-size: 63px;
             padding: 367px 67px 364px;
-            margin: 127px 128px;
+            margin: 687px 128px;
+            position: absolute;
         }
 
     }
 
 }
-
 
 .exhibit{
 

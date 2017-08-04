@@ -1,0 +1,10 @@
+%clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.inner-box{
+  width:1920px;
+  margin:0 auto;
+}

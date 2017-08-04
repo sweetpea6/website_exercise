@@ -33,7 +33,7 @@
 
   &-wrap{
 
-    &-title:after{
+    &-title:before{
       content: "";
       display: block;
       width: 1596px;
@@ -49,7 +49,7 @@
     }
 
     &-text{
-      margin-left: 162px;
+      margin:55px 0 82px 162px;
       width: 1596px;
       line-height: 1.4;
     }
@@ -66,6 +66,7 @@
     text-align: center;
     font-size: 36px;
     color: #fff;
+    margin: 53px 162px 76px;
   }
 
   &-img{
@@ -80,6 +81,9 @@
   &-img{
     width: 152px;
     height: 18px;
-    background: url("../images/image_sprite.png") no-repeat
+    background: url("../images/image_sprite.png") no-repeat -115px 0;
+    margin-top: 56px;
+    border: 0;
+    text-indent: -99999em;
   }
 }
