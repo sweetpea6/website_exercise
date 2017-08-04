@@ -15,29 +15,49 @@
 }
 
 .detail{
-  width: 648px;
+  margin: 0 162px;
 
-  &-content {
+  &-content{
+    float: left;
+    width: 624px;
+    height: 988px;
 
-    &-title {
+    &-title{
+      font-size: 36px;
+      margin-top: 53px;
 
-      &-text {
+      &-text{
+        font-size: 18px;
+        margin-top: 56px;
+        line-height: 1.6;
 
       }
 
     }
 
-    &-wrap {
+  }
 
-      &-list {
+  &-content:before{
+    content: "";
+    display: block;
+    width: 1596px;
+    height: 1px;
+    background: #000;
+  }
 
-        &-subtitle {
+  &-wrap{
+    font-size: 18px;
+    margin-top: 127px;
 
-        }
+    &-list{
 
-        &-text {
+      &-subtitle{
+        float: left;
 
-        }
+      }
+
+      &-text{
+        float: right;
 
       }
 
@@ -46,16 +66,8 @@
   }
 
   &-img{
-
+    float: right;
+    margin: 56px -17px 0 0;
   }
 
-}
-
-.detail:before{
-  content: "";
-  display: block;
-  width: 1596px;
-  height: 1px;
-  background: #333;
-  margin: 0 auto;
 }
