@@ -1,29 +1,30 @@
-/* ������ css */
-
-//.main-title-box{
-//  position: absolute;
-//  width: 672px;
-//  height: 840px;
-//  border: 15px solid #fff;
-//  margin: 120px auto 0 auto;
-//}
-.bg-video{
-  z-index: 0;
-}
-
-.video{
-  width: 1920px;
+.main-video{
+  width: 100%;
   height: 1080px;
+  overflow: hidden;
+
+  &-wrap{
+    width: 100%;
+    position: relative;
+  }
+
+}
+.main-title{
+
+  &-text{
+    font-size: 130px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    border: 15px solid #fff;
+    padding: 234px 122px;
+  }
+
 }
 
-.main-title{
-  font-size: 130px;
-  font-family: 'Libre Baskerville', serif;
-  line-height: 1.2;
-  color: #fff;
-  font-weight: 300;
-  position: absolute;
-}
 
 .main-title:after{
   border: 15px;
@@ -83,4 +84,44 @@
   text-align: center;
   top: 50%;
   margin: 0 auto;
+}
+
+.mailing{
+  text-align: center;
+  margin-top: 41px;
+
+  &-wrap{
+
+    &-img{
+      background: url("../images/image_sprite.png") no-repeat;
+      width: 29px;
+      height: 15px;
+      margin: 0;
+    }
+
+    &-title{
+      font-size: 20px;
+
+      &-sub{
+        font-size: 13px;
+
+      }
+
+    }
+
+    &-work{
+
+      &-write{
+
+        &-button{
+          font-size: 13px;
+          font-weight: 700;
+        }
+
+      }
+
+    }
+
+  }
+
 }

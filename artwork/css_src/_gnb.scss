@@ -1,6 +1,7 @@
 .header{
   position: fixed;
   z-index: 99;
+  right: 48px;
 }
 
 .btn-menu-close{
@@ -12,7 +13,7 @@
 
   position: absolute;
   top: 36px;
-  right: 60px;
+  right: 0;
   cursor: pointer;
 }
 
@@ -23,7 +24,6 @@
   background: url("../images/btn_show_menu.png") no-repeat;
   text-indent: -99999px;
   border: 0;
-  margin-top: 36px;
 }
 
 .gnb{
@@ -35,11 +35,11 @@
 }
 
 .gnb-heading{
-  background: url("../images/artwork_icon.png");
+  background: url("../images/artwork_icon.gif");
   width: 114px;
   height: 76px;
   margin-bottom: 36px;
-  margin-top: 36px;
+  margin-top: 92px;
   text-indent:-99999px;
 }
 
