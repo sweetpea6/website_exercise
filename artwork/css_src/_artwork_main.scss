@@ -99,40 +99,66 @@
 }
 
 .mailing{
+  width: 400px;
+  height: 112px;
   text-align: center;
-  margin-top: 41px;
+  margin: 40px auto;
 
   &-wrap{
+    position: relative;
 
     &-img{
-      width: 29px;
-      height: 15px;
-      float: left;
+
+
+      &-title{
+        font-size: 20px;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-39%);
+        white-space: nowrap;
+        float: right;
+
+        &:before{
+          content: "";
+          display: block;
+
+          margin: 2px 15px 0 0;
+          background: url("../images/image_sprite.png") no-repeat -192px -20px;
+          width: 29px;
+          height: 15px;
+          float: left;
+        }
+      }
+
+      &-sub{
+        font-size: 13px;
+        padding-top: 38px;
+      }
+
     }
 
-    &-title{
-      font-size: 20px;
-    }
-
-    &-sub{
-      font-size: 13px;
-    }
   }
 
   &-work{
 
     &-write{
+      width: 222px;
+      height: 20px;
+      border: 1px solid #333;
+      font-size: 13px;
+      border-radius: 20px;
+      margin: 23px 0 0 88px;
 
       &-button{
         color: #fff;
         font-size: 13px;
         font-weight: 700;
-        border: 1px solid #333;
         background: #333;
-        width: 67px;
-        height: 20px;
-        padding: 0 9px;
-        border-radius :20px;
+        padding: 4px 10px;
+        border-radius :8px;
+        float: right;
+
+
       }
 
     }
