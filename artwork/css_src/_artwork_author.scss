@@ -36,6 +36,21 @@
 
     }
 
+    &:before{
+      content: "";
+      display: none;
+
+      width: 1920px;
+      height: 316px;
+      background: #000;
+
+      opacity: 0.8;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
   }
 
 }
