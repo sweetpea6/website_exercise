@@ -15,23 +15,32 @@
 }
 
 .position{
+    position: relative;
+    width: 948px;
     height: 1100px;
     float: left;
 
     &-img{
 
+    }
+
+    &-box{
+        border: 15px solid #000;
+        width: 672px;
+        height: 840px;
+        margin: 0 auto;
+        position: relative;
+
         &-title{
-            //position: absolute;
             top: 0;
-            border: 15px solid #fff;
-            color: #fff;
+            color: #000;
             font-size: 63px;
-            padding: 367px 67px 364px;
-            margin: 687px 128px;
             position: absolute;
+
         }
 
     }
+
 
 }
 
