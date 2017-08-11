@@ -16,6 +16,7 @@
 
 .detail{
   margin: 0 162px;
+  width: 1579px;
 
   &-content{
     float: left;
@@ -50,10 +51,13 @@
     margin-top: 127px;
 
     &-list{
+      float: left;
+      line-height: 1.4;
 
       &-subtitle{
         float: left;
         margin-right: 114px;
+        width: 50px;
       }
 
       &-text{
