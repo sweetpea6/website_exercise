@@ -1,11 +1,15 @@
 .video-img{
   position: absolute;
+  top:0;
+  left:50%;
+  transform:translatex(-50%);
 }
 
 .video-wrap{
   width: 100%;
   height: 560px;
   overflow: hidden;
+  position:relative;
 }
 
 .video{
@@ -15,8 +19,22 @@
 }
 
 .detail{
-  margin: 0 162px;
-  width: 1579px;
+  margin: 0 auto;
+  width: 1580px;
+  padding-top:56px;
+  position:relative;
+
+  @extend %clearfix;
+
+  &:before{
+    content: "";
+    display: block;
+    width:100%;
+    height: 1px;
+    background: #000;
+    position:absolute;
+    top:0;
+  }
 
   &-content{
     float: left;
@@ -25,7 +43,7 @@
 
     &-title{
       font-size: 36px;
-      margin-top: 53px;
+      margin-top: -2px;
 
       &-text{
         font-size: 18px;
@@ -36,14 +54,6 @@
 
     }
 
-  }
-
-  &-content:before{
-    content: "";
-    display: block;
-    width: 1596px;
-    height: 1px;
-    background: #000;
   }
 
   &-wrap{
@@ -71,7 +81,7 @@
 
   &-img{
     float: right;
-    margin: 56px -17px 0 0;
+
   }
 
 }
