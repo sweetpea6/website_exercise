@@ -1,0 +1,98 @@
+.main{
+
+  &-img{
+    position: relative;
+    width: 100%;
+    height: 560px;
+  }
+
+  &-wrap{
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    margin-top: 30%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    &-title{
+      font-size: 60px;
+      font-weight: 400;
+      margin-top: 224px;
+
+      &-text{
+        margin: 23px 0 217px;
+        font-size: 18px;
+        line-height: 1.4;
+      }
+
+    }
+
+  }
+
+}
+
+.top-explanation{
+
+  &-wrap{
+
+    &-title:before{
+      content: "";
+      display: block;
+      width: 1596px;
+      height: 1px;
+      background: #000;
+      margin: 20px auto;
+    }
+
+    &-title{
+      font-size: 60px;
+      font-weight: 100;
+      text-align: center;
+    }
+
+    &-text{
+      margin:55px 0 55px 162px;
+      width: 1596px;
+      line-height: 1.4;
+    }
+
+  }
+
+}
+
+.down-explanation{
+
+  &-title{
+    border: 1px solid #333;
+    background: #333;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin: 53px 162px 76px;
+  }
+
+  &-img{
+
+  }
+
+  &-text{
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+}
+
+.top-button{
+  text-align: center;
+
+  &-img{
+    width: 152px;
+    height: 18px;
+    background: url("../images/image_sprite.png") no-repeat -115px 0;
+    margin-top: 56px;
+    border: 0;
+    text-indent: -99999em;
+  }
+}
