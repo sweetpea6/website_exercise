@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/artwork/css_src/_gnb.scss" />
         <option value="$PROJECT_DIR$/artwork/css_src/_header.scss" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique.html" />
-        <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_eomyujeong.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_giseulgi.html" />
+        <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_eomyujeong.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_leejinju.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_yunbyeongju.html" />
       </list>
@@ -93,7 +93,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="95" />
     <option name="y" value="18" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -121,6 +121,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,9 +172,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website_exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website_exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -254,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="18" width="1378" height="744" extended-state="0" />
+    <frame x="95" y="18" width="1378" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34402984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -294,20 +312,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/html/artwork_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artica/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -476,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8250429">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artwork/html/artwork_exhibit_detail_page_various.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2972973">
@@ -595,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/html/artwork_critique_detail_page_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4918919">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artwork/css_src/_artwork_exhibit_detail_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4864865">
@@ -614,6 +604,38 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artwork/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8250429">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artwork/html/artwork_critique_detail_page_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.981982">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_currentexhibitions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artwork/html/artwork_critique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3009009">
@@ -622,26 +644,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_eomyujeong.html">
+    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_giseulgi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24684684">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="28" column="587" selection-start-line="28" selection-start-column="587" selection-end-line="28" selection-end-column="587" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_giseulgi.html">
+    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_eomyujeong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.027027">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.6846847">
+          <caret line="29" column="318" selection-start-line="29" selection-start-column="318" selection-end-line="29" selection-end-column="318" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_leejinju.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13693693">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.7189189">
+          <caret line="30" column="232" selection-start-line="30" selection-start-column="232" selection-end-line="30" selection-end-column="232" />
           <folding />
         </state>
       </provider>
