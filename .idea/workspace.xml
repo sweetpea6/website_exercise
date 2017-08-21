@@ -77,11 +77,11 @@
         <option value="$PROJECT_DIR$/artwork/css_src/_footer.scss" />
         <option value="$PROJECT_DIR$/artwork/css_src/_gnb.scss" />
         <option value="$PROJECT_DIR$/artwork/css_src/_header.scss" />
-        <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_giseulgi.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_eomyujeong.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_leejinju.html" />
         <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_yunbyeongju.html" />
+        <option value="$PROJECT_DIR$/artwork/html_src/artwork_critique.html" />
       </list>
     </option>
   </component>
@@ -93,7 +93,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
+    <option name="x" value="243" />
     <option name="y" value="18" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -272,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="18" width="1378" height="744" extended-state="1" />
+    <frame x="243" y="18" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34402984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -636,14 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3009009">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique_detail_page_giseulgi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.0">
@@ -672,6 +664,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1297297">
           <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artwork/html_src/artwork_critique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034234233">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
