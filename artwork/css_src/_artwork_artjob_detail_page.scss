@@ -38,21 +38,21 @@
 
   &-wrap{
     font-size: 18px;
-    margin-top: 127px;
+    margin-top: 56px;
 
     &-list{
-      float: left;
       line-height: 1.4;
+      font-weight: 300;
+      margin: 10px 0;
+
+      @extend %clearfix;
 
       &-subtitle{
         float: left;
-        margin-right: 114px;
-        width: 50px;
       }
 
       &-text{
         float: right;
-
       }
 
     }
