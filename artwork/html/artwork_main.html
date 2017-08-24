@@ -11,27 +11,29 @@
 <header class="header">
   <input type="button" value="메뉴토글" class="btn-menu-toggle" />
   <nav class="gnb">
-    <div class="gnb-heading">ARTWORK</div>
+    <a href="artwork_main.html">
+      <div class="gnb-heading">ARTWORK</div>
+    </a>
     <ul class="gnb-list">
-      <li class="gnb-item"><a href="#" class="gnb-link">전시</a>
+      <li class="gnb-item"><a href="artwork_currentexhibitions.html" class="gnb-link">전시</a>
         <ul>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">현재전시</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">예정전시</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">지난전시</a></li>
+          <li class="gnb-link-item"><a href="artwork_currentexhibitions.html" class="gnb-link">현재전시</a></li>
+          <li class="gnb-link-item"><a href="artwork_upcomingexhibitions.html" class="gnb-link">예정전시</a></li>
+          <li class="gnb-link-item"><a href="artwork_pastexhibitions.html" class="gnb-link">지난전시</a></li>
         </ul>
       </li>
-      <li class="gnb-item"><a href="#" class="gnb-link">아카이브</a>
+      <li class="gnb-item"><a href="artwork_work.html" class="gnb-link">아카이브</a>
         <ul>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">작품</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">평론</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">작가</a></li>
+          <li class="gnb-link-item"><a href="artwork_work.html" class="gnb-link">작품</a></li>
+          <li class="gnb-link-item"><a href="artwork_critique.html" class="gnb-link">평론</a></li>
+          <li class="gnb-link-item"><a href="artwork_author.html" class="gnb-link">작가</a></li>
         </ul>
       </li>
-      <li class="gnb-item"><a href="#" class="gnb-link">커뮤니티</a>
+      <li class="gnb-item"><a href="artwork_bulletin_board.html" class="gnb-link">커뮤니티</a>
         <ul>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">게시판</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">공모전</a></li>
-          <li class="gnb-link-item"><a href="#" class="gnb-link">아트잡</a></li>
+          <li class="gnb-link-item"><a href="artwork_bulletin_board.html" class="gnb-link">게시판</a></li>
+          <li class="gnb-link-item"><a href="artwork_contest.html" class="gnb-link">공모전</a></li>
+          <li class="gnb-link-item"><a href="artwork_artjob.html" class="gnb-link">아트잡</a></li>
         </ul>
       </li>
     </ul>
@@ -59,6 +61,7 @@
 <section class="contents section2">
   <div class="inner-box">
     <ul class="contents-list">
+
       <li class="contents-list-wrap">
         <div class="contents-item">
           <figure class="thumb">
@@ -105,10 +108,10 @@
         <div class="mailing-wrap-img-sub">Never miss an update</div>
       </div>
       <div class="mailing-work">
-        <div class="mailing-work-write">
-          <a href="#" class="mailing-work-write-button">SUBMIT</a>
-        </div>
+        <input type="text" class="mailing-work-write" id="email" />
+        <label class="mailing-work-write-title" for="email">SUBMIT</label>
       </div>
+      <button class="mailing-work-button">SUBMIT</button>
     </div>
 
   </div>

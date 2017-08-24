@@ -62,20 +62,24 @@
         &-list{
             font-size: 18px;
             font-weight: 400;
+            color: #000;
+
+            @extend %clearfix;
 
             &-title{
                 float: left;
-                margin: 18px auto 18px 200px;
+                margin: 0 auto 18px 200px;
+
             }
 
 
             &-subtitle{
                 float: right;
-                margin: 18px 200px 18px auto;
+                margin: 0 200px 18px auto;
             }
         }
 
-        &-list:after{
+        &-list:before{
             content: "";
             display: block;
             width: 672px;
