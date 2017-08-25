@@ -3,5 +3,10 @@
  */
 $(function(){
 
+  $('.thumb-text-heading').on('click', function(){
+
+    $()
+
+  });
 
 });

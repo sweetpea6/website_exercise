@@ -15,6 +15,8 @@
     left: 50%;
     transform: translateX(-50%);
 
+    cursor: default;
+
 
     &-title{
       font-size: 60px;
@@ -36,6 +38,7 @@
 .top-explanation{
 
   &-wrap{
+    cursor: default;
 
     &-title:before{
       content: "";
@@ -63,6 +66,7 @@
 }
 
 .critique-explanation{
+  cursor: default;
 
   &-title{
     border: 1px solid #333;
@@ -85,7 +89,6 @@
 }
 
 .top-button{
-  text-align: center;
 
   &-img{
     width: 152px;
@@ -94,5 +97,6 @@
     margin-top: 56px;
     border: 0;
     text-indent: -99999em;
+
   }
 }

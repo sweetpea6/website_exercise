@@ -43,7 +43,11 @@
   text-indent:-99999px;
 }
 
-.gnb-item{
+.gnb-list-item:hover{
+  
+}
+
+.gnb-list-item{
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 65px;
@@ -54,7 +58,7 @@
   color: #000;
 }
 
-.gnb-link-item{
+.gnb-list-wrap-item{
   font-size: 13px;
   margin-top: 16px;
 }

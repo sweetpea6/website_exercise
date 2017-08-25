@@ -40,6 +40,8 @@
             margin-top: 365px;
             text-align: center;
             width: 672px;
+
+            cursor: default;
         }
 
     }
@@ -48,14 +50,14 @@
 }
 
 .exhibit{
-    width: 948px;
     float: left;
     margin-left: 7px;
 
     &-wrap{
-        float: right;
 
         &-img{
+            width: 100%;
+            display: block;
 
         }
 
@@ -66,12 +68,15 @@
 
             @extend %clearfix;
 
+            &:hover{
+                font-weight: 400;
+            }
+
             &-title{
                 float: left;
                 margin: 0 auto 18px 200px;
 
             }
-
 
             &-subtitle{
                 float: right;
@@ -86,6 +91,7 @@
             height: 1px;
             background: #000;
             margin: 20px auto;
+
         }
     }
 }

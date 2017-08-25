@@ -15,6 +15,8 @@
         left: 50%;
         transform: translateX(-50%);
 
+        cursor: default;
+
 
         &-title{
             font-size: 60px;
@@ -51,13 +53,14 @@
         width: 1596px;
         line-height: 1.4;
         text-align: center;
+
+        cursor: default;
     }
 
 }
 
 .work-content{
     position: relative;
-    margin-bottom: 35%;
 
     &-title{
         border: 1px solid #333;
@@ -66,10 +69,12 @@
         font-size: 36px;
         color: #fff;
         margin: 53px 162px 76px;
+
+        cursor: default;
     }
 
     &-img{
-        position: absolute;
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
     }

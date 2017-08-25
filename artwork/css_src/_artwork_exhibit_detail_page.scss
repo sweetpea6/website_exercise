@@ -15,6 +15,8 @@
     left: 50%;
     transform: translateX(-50%);
 
+    cursor: default;
+
 
     &-title{
       font-size: 60px;
@@ -36,6 +38,7 @@
 .top-explanation{
 
   &-wrap{
+    cursor: default;
 
     &-title:before{
       content: "";
@@ -63,6 +66,7 @@
 }
 
 .down-explanation{
+  cursor: default;
 
   &-title{
     border: 1px solid #333;
@@ -80,6 +84,7 @@
 }
 
 .top-button{
+  cursor: default;
   text-align: center;
 
   &-img{
