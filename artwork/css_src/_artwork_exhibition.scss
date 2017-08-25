@@ -16,9 +16,10 @@
 
 .position{
     position: relative;
-    width: 948px;
     height: 1100px;
     float: left;
+
+    width: 50%;
 
     &-img{
 
@@ -51,7 +52,8 @@
 
 .exhibit{
     float: left;
-    margin-left: 7px;
+
+    width: 50%;
 
     &-wrap{
 

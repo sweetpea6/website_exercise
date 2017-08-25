@@ -20,56 +20,18 @@
     <favorites_list name="artwork" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50784314">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="_artwork_exhibition.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css_src/_artwork_exhibition.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3158784">
-                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="artwork_contest.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/artwork_contest.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="artwork_main.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/artwork_main.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9230769">
-                  <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="artwork_currentexhibitions.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/artwork_currentexhibitions.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0912162">
-                  <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="artwork_contest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html_src/artwork_contest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7128378">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,7 +69,6 @@
         <option value="$PROJECT_DIR$/html_src/artwork_pastexhibitions.html" />
         <option value="$PROJECT_DIR$/html_src/artwork_upcomingexhibitions.html" />
         <option value="$PROJECT_DIR$/html_src/artwork_work.html" />
-        <option value="$PROJECT_DIR$/html_src/artwork_contest.html" />
         <option value="$PROJECT_DIR$/html/artwork_contest.html" />
         <option value="$PROJECT_DIR$/html/artwork_artjob_detail_page_1.html" />
         <option value="$PROJECT_DIR$/html_src/artwork_artjob_detail_page_1.html" />
@@ -133,6 +94,7 @@
         <option value="$PROJECT_DIR$/css_src/_artwork_work_detail_page.scss" />
         <option value="$PROJECT_DIR$/css_src/_artwork_main.scss" />
         <option value="$PROJECT_DIR$/css_src/_artwork_exhibition.scss" />
+        <option value="$PROJECT_DIR$/html_src/artwork_contest.html" />
       </list>
     </option>
   </component>
@@ -215,6 +177,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/artwork_contest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20432693">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_src/artwork_artjob.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9044944">
@@ -495,14 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45618916">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/_include/_gnb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15965167">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -595,14 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/artwork_artjob.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5506756">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_artwork_artjob_detail_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40202704">
@@ -627,15 +598,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/artwork_currentexhibitions.html">
+    <entry file="file://$PROJECT_DIR$/css_src/_artwork_exhibition.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0912162">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.70037454">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/artwork_contest.html">
+    <entry file="file://$PROJECT_DIR$/html/artwork_currentexhibitions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40202704">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/artwork_artjob_detail_page_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -643,10 +625,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css_src/_artwork_exhibition.scss">
+    <entry file="file://$PROJECT_DIR$/html/artwork_contest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3158784">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/artwork_artjob.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.722973">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/_include/_gnb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16722973">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/artwork_contest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7128378">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding />
         </state>
       </provider>
