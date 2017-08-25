@@ -15,14 +15,14 @@
 }
 
 .position{
-    position: relative;
-    height: 1100px;
+    position: absolute;
     float: left;
 
     width: 50%;
 
     &-img{
-
+        width: 100%;
+        display: block;
     }
 
     &-box{
@@ -51,7 +51,7 @@
 }
 
 .exhibit{
-    float: left;
+    float: right;
 
     width: 50%;
 
@@ -64,15 +64,16 @@
         }
 
         &-list{
+
+            &:hover{
+                font-weight: bold;
+            }
+
             font-size: 18px;
             font-weight: 400;
             color: #000;
 
             @extend %clearfix;
-
-            &:hover{
-                font-weight: 400;
-            }
 
             &-title{
                 float: left;
