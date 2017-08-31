@@ -15,7 +15,7 @@
 }
 
 .position{
-    position: absolute;
+    position: relative;
     float: left;
 
     width: 50%;
@@ -27,20 +27,17 @@
 
     &-box{
         border: 15px solid #fff;
-        width: 672px;
-        height: 840px;
+        width: 70%;
+        padding: 40% 0;
         margin: 0 auto;
-        position: relative;
-        top: -983px;
+        position: absolute;
+        top: 10%;
+        left: 13%;
 
         &-title{
-            top: 0;
             color: #fff;
             font-size: 63px;
-            position: absolute;
-            margin-top: 365px;
             text-align: center;
-            width: 672px;
 
             cursor: default;
         }
@@ -48,6 +45,10 @@
     }
 
 
+}
+
+.section2{
+    @extend %clearfix;
 }
 
 .exhibit{
@@ -65,6 +66,8 @@
 
         &-list{
 
+            @extend %clearfix;
+
             &:hover{
                 font-weight: bold;
             }
@@ -73,7 +76,6 @@
             font-weight: 400;
             color: #000;
 
-            @extend %clearfix;
 
             &-title{
                 float: left;

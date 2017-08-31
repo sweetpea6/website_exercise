@@ -3,10 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/css_src/_artwork_author.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css_src/_artwork_exhibition.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css_src/_artwork_main.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css_src/_artwork_work_detail_page.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css_src/_gnb.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css_src/_reset.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/html_src/artwork_main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/lib/jquery-ui.min.js" charset="UTF-8" />
   </component>
 </project>
