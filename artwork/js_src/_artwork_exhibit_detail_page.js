@@ -2,13 +2,9 @@
  * Created by Administrator on 2017-08-31.
  */
 $(function(){
-  $('.top-button-img').on('click', function(e){
+  $('.top-button-img').on('click', function(){
 
-    e.preventDefault();
-
-    var href = $(this).attr('href');
-
-    var scrollPosition =  $(href).offset().top ;
+    var scrollPosition =  $('.section1').offset().top ;
 
     $('html, body').stop().animate({
       scrollTop : scrollPosition

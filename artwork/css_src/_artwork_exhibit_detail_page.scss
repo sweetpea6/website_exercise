@@ -84,7 +84,6 @@
 }
 
 .top-button{
-
   text-align: center;
 
   &-img{
@@ -96,5 +95,9 @@
     text-indent: -99999em;
 
     cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
   }
 }
