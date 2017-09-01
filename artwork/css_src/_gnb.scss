@@ -2,41 +2,23 @@
   position: fixed;
   z-index: 99;
   right: 48px;
-}
 
-.close .close-btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #000;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.close {
-  top: 24px;
-  font-size: 12px;
-
-  text-indent:-99999px;
-}
-
-.close-btn {
-  top: 44px;
-  font-size: 10px;
-  opacity: 0.7;
-
-  text-indent:-99999px;
+  width: 114px;
+  height: 747px;
 }
 
 #btn {
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: 99px;
   transform: translate(-50%, -50%);
   cursor: pointer;
   border: none;
   outline: none;
+
+  width: 24px;
+  height: 20px;
+  background: none;
 }
 
 #btn span {
@@ -65,36 +47,41 @@
 #btn span:nth-child(1) {
   animation: span-first-off 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: reverse;
 }
 
 #btn span:nth-child(2) {
   animation: span-second-off 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: reverse;
 }
 
 #btn span:nth-child(3) {
   animation: span-third-off 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: reverse;
 }
 
-#btn.on:hover span::before {
+#btn.on span::before {
   width: 100%;
-  transition: all 0.3s linear;
 }
 
 #btn.on span:nth-child(1) {
   animation: span-first-on 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: normal;
 }
 
 #btn.on span:nth-child(2) {
   animation: span-second-on 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: normal;
 }
 
 #btn.on span:nth-child(3) {
   animation: span-third-on 0.5s ease-in-out;
   animation-fill-mode: forwards;
+  animation-direction: normal;
 }
 
 @keyframes span-first-on {
@@ -169,34 +156,18 @@
   }
 }
 
-//.btn-menu-close{
-//  width: 20px;
-//  height: 20px;
-//  background: url("../images/btn_close_menu.png") no-repeat;
-//  border: 0;
-//  text-indent: -99999px;
-//
-//  position: absolute;
-//  top: 36px;
-//  right: 0;
-//  cursor: pointer;
-//}
-
-//.btn-menu-toggle{
-//  float: right;
-//  width: 20px;
-//  height: 20px;
-//  background: url("../images/btn_show_menu.png") no-repeat;
-//  text-indent: -99999px;
-//  border: 0;
-//}
-
 .gnb{
   width: 114px;
   height: 100%;
 
   top: 0;
   right: 61px;
+
+  display: none;
+
+  &.on{
+    display: block;
+  }
 
   &-link{
 
