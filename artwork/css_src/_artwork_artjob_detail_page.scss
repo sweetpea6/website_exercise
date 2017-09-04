@@ -18,7 +18,10 @@
 
   &-content{
     float: left;
-    width: 624px;
+
+    overflow: scroll;
+    overflow-x:hidden;
+    width: 762px;
     height: 988px;
 
     &-title{
