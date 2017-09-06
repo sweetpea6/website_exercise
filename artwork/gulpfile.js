@@ -36,6 +36,14 @@ gulp.task('include', function(){
       .pipe(gulp.dest("html/"));
 });
 
+//gulp.task('index', function(){
+//  gulp.src("html_src/*.html")
+//      .pipe(include())
+//      .on('error', console.log)
+//      .pipe(gulp.dest("/index.html"));
+//});
+
+
 // sass 실행
 gulp.task('sass', function(){
   return gulp.src('css_src/*.scss')
@@ -59,6 +67,6 @@ gulp.task('artwork', function() {
 gulp.task('jsconcat', ['artwork']);
 
 
-gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
+gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch', 'index']);
 
 
