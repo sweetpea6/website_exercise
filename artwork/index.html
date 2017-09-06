@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ARTWORK Main</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon2.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.css">
+  <script src="../js/lib/jquery-3.2.1.min.js"></script>
+  <script src="../js/lib/jquery-ui.min.js"></script>
+  <script src="../js/lib/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../js/artwork.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+  <!--<input type="button" value="메뉴토글" class="btn-menu-toggle" />-->
+  <!--<h1 class="close">열기/닫기 & 햄버거 버튼</h1>-->
+  <!--<h2 class="close-btn">Pure CSS</h2>-->
+  <button id="btn">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="gnb">
+    <a href="artwork_main.html" class="gnb-link">
+      <div class="gnb-link-heading">ARTWORK</div>
+    </a>
+
+    <ul class="gnb-list">
+      <li class="gnb-list-item"><a href="artwork_currentexhibitions.html" class="gnb-list-link">전시</a>
+        <ul class="gnb-list-wrap">
+          <li class="gnb-list-wrap-item"><a href="artwork_currentexhibitions.html" class="gnb-list-link2">현재전시</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_upcomingexhibitions.html" class="gnb-list-link2">예정전시</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_pastexhibitions.html" class="gnb-list-link2">지난전시</a></li>
+        </ul>
+      </li>
+      <li class="gnb-list-item"><a href="artwork_work.html" class="gnb-list-link">아카이브</a>
+        <ul class="gnb-list-wrap">
+          <li class="gnb-list-wrap-item"><a href="artwork_work.html" class="gnb-list-link3">작품</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_critique.html" class="gnb-list-link3">평론</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_author.html" class="gnb-list-link3">작가</a></li>
+        </ul>
+      </li>
+      <li class="gnb-list-item"><a href="artwork_bulletin_board.html" class="gnb-list-link">커뮤니티</a>
+        <ul class="gnb-list-wrap">
+          <li class="gnb-list-wrap-item"><a href="artwork_bulletin_board.html" class="gnb-list-link4">게시판</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_contest.html" class="gnb-list-link4">공모전</a></li>
+          <li class="gnb-list-wrap-item"><a href="artwork_artjob.html" class="gnb-list-link4">아트잡</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!--<input type="button" value="메뉴닫기" class="btn-menu-close" />-->
+  </nav>
+</header>
+
+<section class="contents open-page sliding">
+  <div class="inner-box">
+    <div class="main-video">
+      <video class="main-video-wrap" autoplay loop>
+        <source src="../images/artwork_main.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="main-title">
+      <h1 class="main-title-text">
+        ART<br/>
+        WORK
+      </h1>
+    </div>
+    <div>
+      <button type="button" class="down-btn">내려가기</button>
+    </div>
+  </div>
+</section>
+
+<section class="contents section2 sliding">
+  <div class="inner-box">
+    <ul class="contents-list">
+      <li class="contents-list-item">
+        <a href="../html/artwork_currentexhibitions.html" class="contents-list-item-link">
+          <div class="contents-list-item-mask">
+            <div class="contents-list-item-mask-text">EXHIBITION</div>
+            <img src="../images/artwork_main_01.png" class="contents-list-item-mask-image">
+          </div>
+        </a>
+      </li>
+
+      <li class="contents-list-item">
+        <a href="../html/artwork_work.html" class="contents-list-item-link">
+          <div class="contents-list-item-mask">
+            <div class="contents-list-item-mask-text">EXHIBITION</div>
+            <img src="../images/artwork_main_02.png" class="contents-list-item-mask-image">
+          </div>
+        </a>
+      </li>
+
+      <li class="contents-list-item">
+        <a href="../html/artwork_bulletin_board.html" class="contents-list-item-link">
+          <div class="contents-list-item-mask">
+            <div class="contents-list-item-mask-text">COMMUNITY</div>
+            <img src="../images/artwork_main_03.png" class="contents-list-item-mask-image">
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="mailing">
+      <div class="mailing-wrap">
+        <div class="mailing-wrap-img-title">Join our mailing list!</div>
+        <div class="mailing-wrap-img-sub">Never miss an update</div>
+      </div>
+      <div class="mailing-work">
+        <input type="text" class="mailing-work-write" id="email" />
+        <label class="mailing-work-write-title" for="email">SUBMIT</label>
+      </div>
+      <button class="mailing-work-button">SUBMIT</button>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+
+  <div class="footer-copyright">
+
+    Copyright &copy; 2017 ARTWORK. All Rights Reserved.
+
+  </div>
+
+</footer>
+
+
+
+</body>
+
+</html>

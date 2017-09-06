@@ -36,12 +36,12 @@ gulp.task('include', function(){
       .pipe(gulp.dest("html/"));
 });
 
-//gulp.task('index', function(){
-//  gulp.src("html_src/*.html")
-//      .pipe(include())
-//      .on('error', console.log)
-//      .pipe(gulp.dest("/index.html"));
-//});
+gulp.task('index', function(){
+  gulp.src("html_src/index.html")
+      .pipe(include())
+      .on('error', console.log)
+      .pipe(gulp.dest("./"));
+});
 
 
 // sass 실행
